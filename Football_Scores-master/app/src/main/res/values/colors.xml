@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_1">#8bc34a</color>
+    <color name="color_2">#4caf50</color>
+    <color name="color_3">#009688</color>
+    <color name="color_4">#00bcd4</color>
+    <color name="color_5">#03a9f4</color>
+
+    <color name="app_theme_primary">#3e3a52</color>
+    <color name="app_theme_primary_dark">#322f42</color>
+    <color name="app_theme_primary_darker">#2c2939</color>
+    <color name="app_theme_accent">#74af30</color>
+
+    <color name="group_header_separator">#b2ffffff</color>
+    <color name="group_header_textColor">#ffffff</color>
+
+    <color name="table_selection_highlight">#82b448</color>
+
+    <color name="translucent_status_bar_color">#33000000</color>
+    <color name="translucent_navigation_bar_color">#33000000</color>
+
+    <color name="widget_background">#ffffff</color>
+    <color name="widget_background_dark">#ededed</color>
+    <color name="widget_text_color_primary_light">#de000000</color>
+    <color name="widget_text_color_secondary_light">#8a000000</color>
+    <color name="widget_empty_background">#33000000</color>
+    <color name="widget_empty_text_color">#b2ffffff</color>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.NoActionBar.FullScreenEffect">
+        <item name="android:statusBarColor">@color/translucent_status_bar_color</item>
+        <item name="android:navigationBarColor">@color/translucent_navigation_bar_color</item>
+        <item name="android:windowTranslucentNavigation">@bool/translucent_navigation_bar</item>
+    </style>
+
+</resources>

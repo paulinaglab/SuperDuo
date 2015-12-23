@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Wide screens margins-->
+    <dimen name="main_centered_layout_side_margin">88dp</dimen>
+    <dimen name="insert_manually_layout_side_margin">192dp</dimen>
+    <dimen name="scanner_response_layout_side_margin">116dp</dimen>
+
+    <!-- Toolbar dimens & insets -->
+    <dimen name="toolbar_title_padding">16dp</dimen>
+
+    <dimen name="large_size_horizontal_margins">64dp</dimen>
+    <dimen name="large_size_toolbar_title_inset">0dp</dimen>
+
+</resources>

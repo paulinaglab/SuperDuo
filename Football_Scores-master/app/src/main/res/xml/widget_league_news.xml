@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="barqsoft.footballscores.activities.LeagueWidgetConfigActivity"
+    android:initialLayout="@layout/widget_league_news"
+    android:initialKeyguardLayout="@layout/widget_league_news"
+    android:minResizeHeight="@dimen/widget_league_news_min_resize_height"
+    android:minHeight="@dimen/widget_league_news_default_height"
+    android:minWidth="@dimen/widget_league_news_default_width"
+    android:updatePeriodMillis="0"
+    android:resizeMode="vertical"
+    android:previewImage="@drawable/widget_league_news_preview"/>

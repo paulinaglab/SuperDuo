@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="toolbar_title_padding">16dp</dimen>
+
+    <dimen name="large_size_horizontal_margins">64dp</dimen>
+    <dimen name="large_size_toolbar_title_inset">0dp</dimen>
+
+    <dimen name="recycler_horizontal_margins">36dp</dimen>
+    <dimen name="matches_recycler_card_margins">8dp</dimen>
+
+</resources>

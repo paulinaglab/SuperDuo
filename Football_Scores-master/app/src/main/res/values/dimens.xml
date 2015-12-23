@@ -1,0 +1,33 @@
+<resources>
+
+    <dimen name="activity_horizontal_margins">16dp</dimen>
+    <dimen name="activity_vertical_margins">16dp</dimen>
+
+    <dimen name="toolbar_title_padding">0dp</dimen>
+
+    <dimen name="large_size_horizontal_margins">0dp</dimen>
+    <dimen name="large_size_toolbar_title_inset">0dp</dimen>
+
+    <dimen name="recycler_horizontal_margins">8dp</dimen>
+    <dimen name="matches_recycler_card_margins">8dp</dimen>
+
+    <dimen name="appbar_app_name_height">72dp</dimen>
+
+    <dimen name="status_bar_height">25dp</dimen>
+
+    <dimen name="empty_state_label_max_width">192dp</dimen>
+
+    <dimen name="launch_progress_bar_width">-1px</dimen>
+    
+    
+    <!-- Widgets -->
+    <dimen name="widget_margin">4dp</dimen>
+    <dimen name="widget_team_news_default_width">220dp</dimen>
+    <dimen name="widget_team_news_default_height">240dp</dimen>
+
+    <dimen name="widget_league_news_default_width">220dp</dimen>
+    <dimen name="widget_league_news_default_height">250dp</dimen>
+    <dimen name="widget_league_news_min_resize_height">110dp</dimen>
+
+    
+</resources>

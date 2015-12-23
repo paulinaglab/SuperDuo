@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_theme_primaryColor">#999386</color>
+    <color name="app_theme_statusBarColor">#807b6f</color>
+    <color name="app_theme_accent">#81163b</color>
+    <color name="app_theme_windowBackground">#e7e7e7</color>
+
+    <color name="fab_mini_bg">#ffffff</color>
+    <color name="fab_bg">#b71056</color>
+
+    <color name="fabs_visible_dim">#b2e7e7e7</color>
+    <color name="translucent_window_dim">#66000000</color>
+
+    <color name="separator_light">#33000000</color>
+    <color name="separator">#33ffffff</color>
+
+    <color name="scanner_border">#8c877b</color>
+    <color name="scanner_mask">#99a6a091</color>
+    <color name="scanner_laser">#e9115a</color>
+    <color name="scanner_toolbar_bg">#b24d4942</color>
+
+    <!-- Book colors -->
+    <color name="book_color_cherry">#b11740</color>
+    <color name="book_color_carrot">#EF6C00</color>
+    <color name="book_color_honey">#FFB300</color>
+    <color name="book_color_lime">#b6c621</color>
+    <color name="book_color_aqua">#00BFA5</color>
+    <color name="book_color_blue_sky">#03A9F4</color>
+    <color name="book_color_berry">#3949AB</color>
+    <color name="book_color_lavender">#7E57C2</color>
+    <color name="book_color_pebble">#908d96</color>
+    <color name="book_color_stone">#555555</color>
+
+</resources>

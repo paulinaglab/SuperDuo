@@ -1,0 +1,14 @@
+<resources>
+
+    <dimen name="activity_horizontal_margins">24dp</dimen>
+    <dimen name="activity_vertical_margins">24dp</dimen>
+
+    <dimen name="toolbar_title_padding">24dp</dimen>
+
+    <dimen name="large_size_horizontal_margins">96dp</dimen>
+    <dimen name="large_size_toolbar_title_inset">32dp</dimen>
+
+    <dimen name="recycler_horizontal_margins">96dp</dimen>
+    <dimen name="matches_recycler_card_margins">16dp</dimen>
+
+</resources>

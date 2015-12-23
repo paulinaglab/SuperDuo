@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margins"
+    android:paddingRight="@dimen/activity_horizontal_margins">
+
+    <android.support.v4.widget.Space
+        style="@style/AppTheme.TeamCrest.ListItemSize"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margins"
+        android:layout_marginRight="@dimen/activity_horizontal_margins"
+        android:layout_marginTop="8dp" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/header_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingTop="@dimen/activity_vertical_margins"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="?colorAccent"
+        tools:text="Sample Header"
+        android:textAlignment="viewStart"/>
+
+</LinearLayout>

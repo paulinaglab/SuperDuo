@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/normal_size_margin"
+        android:layout_marginLeft="@dimen/normal_size_margin"
+        android:layout_marginStart="@dimen/normal_size_margin"
+        android:layout_marginTop="@dimen/normal_size_margin"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/book_info_title"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="8dp"
+            tools:text="Sample book title" />
+
+        <TextView
+            android:id="@+id/book_info_subtitle"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            tools:text="Sample book subtitle" />
+
+        <TextView
+            android:id="@+id/book_info_categories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            tools:text="Sample category" />
+
+        <TextView
+            android:id="@+id/book_info_authors"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            tools:text="Sample b. Author" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/book_info_cover"
+        android:layout_width="98dp"
+        android:layout_height="144dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/normal_size_margin"
+        android:contentDescription="@string/book_cover_content_description"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/no_book_cover" />
+
+</LinearLayout>

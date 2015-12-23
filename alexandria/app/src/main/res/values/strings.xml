@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alexandria</string>
+    <string name="intent_share_hashtag">#Alexandria</string>
+
+    <string name="activity_scanner_title">Scan the code</string>
+    <string name="activity_about_title">About</string>
+
+
+    <!-- Menu actions -->
+    <string name="action_about">About</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_search">Search</string>
+    <string name="action_pick_color">Pick color</string>
+    <string name="action_share">Share</string>
+
+    <string name="manually_insert_input_hint">Insert ISBN-10 or ISBN-13. Digits only.</string>
+    <string name="manually_insert_confirm_button">Add to catalog</string>
+    <string name="manually_insert_already_added_label">This book is already in your catalog.</string>
+
+    <string name="insert_book_confirmation">Book added to catalog</string>
+    <string name="insert_book_not_found_in_api">Book not found</string>
+    <string name="insert_book_network_error">Connection error has occurred.</string>
+    <string name="insert_book_network_error_action">Retry</string>
+
+
+    <!-- Dialog: Pick color -->
+    <string name="dialog_color_picker_title">Pick a color</string>
+
+    <!-- Dialog: Delete confirmation -->
+    <string name="dialog_book_deletion_confirmation_message">Delete this book?</string>
+    <string name="dialog_delete_button_label">Delete</string>
+    <string name="dialog_cancel_button_label">Cancel</string>
+
+    <!-- Dialog: Leaving before saving -->
+    <string name="dialog_leave_confirmation_message">Leaving would mean that book will not be saved.</string>
+    <string name="dialog_leave_button_label">Leave</string>
+    <string name="dialog_save_button_label">Add to catalog</string>
+
+
+    <string name="book_cover_content_description">Book\'s cover</string>
+
+    <string name="details_description_label">Description</string>
+
+    <!-- Sharing -->
+    <string name="intent_share_text">A must read book:\n</string>
+
+
+    <!-- Book search -->
+    <string name="no_books_found">No matches found</string>
+
+    <!-- Empty state: no books -->
+    <string name="no_books_added_to_catalog">Catalog is empty</string>
+
+    <string name="about_text">
+        This application gets book information from a Google API.
+        All titles, cover images, and author information come from there.\n\nThis version of the application has been modified by Paulina Głąb and is licensed under
+        GNU GENERAL PUBLIC LICENSE Version 3.\n\nIcons (ic_action_back, ic_action_color_pick, ic_action_delete, ic_action_search,
+        ic_action_share, ic_check, ic_fab_add, ic_fab_barcode, ic_fab_insert) come from:\nhttp://materialdesignicons.com.\nLicense can be found here:\nhttps://github.com/Templarian/MaterialDesign/blob/master/license.txt\n\nThe original version of this app was built by Sascha Jaschke, and a modified version is
+        given to students in the Udacity Android Nanodegree program.
+    </string>
+
+</resources>

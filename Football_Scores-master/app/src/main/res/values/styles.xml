@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/app_theme_primary</item>
+        <item name="colorPrimaryDark">@color/app_theme_primary_dark</item>
+        <item name="colorAccent">@color/app_theme_accent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Dark.NoActionBar" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/app_theme_accent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/app_theme_primary_darker</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.FullScreenEffect"></style>
+
+    <style name="AppTheme.TextView.LongText" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+
+    <style name="AppTheme.TeamCrest.Small" parent="AppTheme">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="AppTheme.TeamCrest.Large" parent="AppTheme">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="AppTheme.TeamCrest.ListItemSize" parent="AppTheme">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="AppTheme.TeamCrest.Tiny" parent="AppTheme">
+        <item name="android:layout_width">16dp</item>
+        <item name="android:layout_height">16dp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+
+    <style name="AppTheme.TextView.TeamName" parent="Base.TextAppearance.AppCompat.Subhead">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.TextView.EmptyStateLabel" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxWidth">@dimen/empty_state_label_max_width</item>
+        <item name="android:textColor">@color/secondary_text_default_material_dark</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.CardOptionItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">?selectableItemBackground</item>
+    </style>
+
+    <style name="ScoreCardTheme" parent="Base.Theme.AppCompat.Light">
+        <item name="colorAccent">@color/app_theme_accent</item>
+    </style>
+
+    <style name="ScoreCardTheme.CardView" parent="ScoreCardTheme">
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="ScoreCardTheme.Team.TableItem.Selected" parent="Base.Theme.AppCompat">
+
+    </style>
+
+</resources>

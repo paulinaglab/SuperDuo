@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="barqsoft.footballscores">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".FootballScores"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar.FullScreenEffect">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.AboutActivity"
+            android:label="About"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".activities.CustomizeActivity"
+            android:label="@string/customize_label"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".activities.TeamWidgetConfigActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.LaunchActivity"
+            android:theme="@style/AppTheme.Dark.NoActionBar" />
+
+        <activity
+            android:name=".activities.LeagueWidgetConfigActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+
+        <service
+            android:name=".services.SyncService"
+            android:exported="true"
+            android:process=":sync">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/football_scores_sync_adapter" />
+        </service>
+
+
+        <service android:name=".services.AuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator" />
+        </service>
+
+        <service android:name=".widgets.TeamNewsWidgetIntentService" />
+
+        <service
+            android:name=".widgets.LeagueNewsWidgetRemoteViewsService"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <provider
+            android:name=".data.FootballScoresProvider"
+            android:authorities="barqsoft.footballscores.Authority"
+            android:exported="false"
+            android:syncable="false" />
+
+        <receiver
+            android:name=".widgets.TeamNewsWidgetProvider"
+            android:label="@string/widget_team_news_title">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="barqsoft.footballscores.SYNC_FINISHED_ACTION" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_team_news" />
+        </receiver>
+
+        <receiver
+            android:name=".widgets.LeagueNewsWidgetProvider"
+            android:label="@string/widget_league_news_title">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="barqsoft.footballscores.SYNC_FINISHED_ACTION" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_league_news" />
+        </receiver>
+
+    </application>
+
+</manifest>

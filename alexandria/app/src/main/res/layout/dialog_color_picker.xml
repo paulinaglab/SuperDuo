@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/dialog_color_picker_title" />
+
+    <include android:id="@+id/dialog_colors_layout"
+        layout="@layout/colors_grid_layout" />
+
+</LinearLayout>

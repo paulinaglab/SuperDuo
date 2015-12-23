@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Wide screens margins-->
+    <dimen name="main_centered_layout_side_margin">44dp</dimen>
+    <dimen name="insert_manually_layout_side_margin">48dp</dimen>
+    <dimen name="scanner_response_layout_side_margin">48dp</dimen>
+
+</resources>

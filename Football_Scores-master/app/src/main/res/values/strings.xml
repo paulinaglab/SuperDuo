@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Locale name - needed for taking name of day keeping the same language. -->
+    <string name="locale">en_US</string>
+
+    <!-- App's data -->
+    <string name="app_name">Football Scores</string>
+    <string name="app_hashtag">#FootballScoresApp</string>
+    <string name="authority" translatable="false">barqsoft.footballscores.Authority</string>
+    <string name="account_type" translatable="false">barqsoft.footballscores.AccountType</string>
+
+    <!-- Activities' labels -->
+    <string name="about_label">About</string>
+    <string name="customize_label">Customize</string>
+    <string name="team_widget_customization_label">Select team</string>
+    <string name="league_widget_customization_label">Select league</string>
+
+    <!-- Actions -->
+    <string name="action_about_label">About</string>
+    <string name="action_customize_label">Customize</string>
+
+    <!-- Date helpers -->
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="day_and_hour_connective" translatable="false">", "</string>
+
+    <!-- Card titles -->
+    <string name="cards_matchday_label">Matchday %d</string>
+    <string name="cards_table_label">Table</string>
+    <string name="cards_table_order_format" translatable="false">%d.</string>
+    <string name="cards_scores_label">Recent scores</string>
+    <string name="cards_coming_label">Coming fixtures</string>
+
+    <!-- Card Menu Dialog options -->
+    <string name="card_menu_share_action">Share</string>
+    <string name="card_menu_customize_action">Customize</string>
+    <string name="card_menu_remove_from_observed_action">Remove %s from observed</string>
+
+    <!-- Text connectives -->
+    <string name="match_card_title_connective" translatable="false">" &#183; "</string>
+    <string name="match_card_score_connective" translatable="false">" - "</string>
+    <string name="coming_fixture_versus_text" translatable="false">vs</string>
+
+    <!-- Sharing -->
+    <string name="sharing_fixture_score_prefix">Have you seen this match?</string>
+    <string name="sharing_coming_fixture_suffix">Don\'t miss!</string>
+
+    <!-- Empty states -->
+    <string name="empty_state_none_plays">There are no fixtures for observed teams or leagues in the nearest future.</string>
+    <string name="empty_state_none_watched">You don\'t observe anything. Pick some teams or leagues you want to follow.</string>
+    <string name="empty_state_customize_button_label">Customize</string>
+
+    <!-- Error dialog -->
+    <string name="first_sync_error_label">Downloading data failed. Make sure you are connected to the Internet.</string>
+    <string name="retry_button_label">Try again</string>
+    <string name="cancel_button_label">Close app</string>
+
+    <!-- Descriptions -->
+    <string name="description_crest">Crest of %s</string>
+    <string name="description_card_menu_button">Card Menu button</string>
+    <string name="description_share_button">Share button</string>
+    <string name="description_customize_button">Customize button</string>
+    <string name="description_remove_from_watched_button">Remove button</string>
+
+    <string name="about_text">
+        This Application get Football Matches Score for the 1. Bundesliga, 2. Bundesliga, 3. Bundesliga, Champions League, Eredivisie, Ligue 1, Ligue 2, Premier League, Primiera Liga, Primera Division, Segunda Division and Serie A. All Matches data are acquired from football-data.org free API. All team Logos are acquired from links returned by API.\n\nThis version of the application has been modified by Paulina Głąb and is licensed under GNU GENERAL PUBLIC LICENSE Version 3.\n\nIcons (ic_customize, ic_more, ic_remove, ic_share) come from http://materialdesignicons.com. License can be found here: https://github.com/Templarian/MaterialDesign/blob/master/license.txt\n\nThe original version of this app was created by Yahia Khalid Ibn El Walid Ahmed, and a modified version is given to students in the Udacity Android Nanodegree program. To report any bugs or suggestions do not hesitate to send a mail to y.k.ibnelwalid@gmail.com.
+    </string>
+
+    <string name="launch_loading_info_label">Getting data about fixtures</string>
+
+
+    <!-- Widgets -->
+    <string name="widget_team_news_title">Football Scores - Team news</string>
+    <string name="widget_team_empty_coming">No coming fixtures</string>
+    <string name="widget_team_empty_recent">No recent fixtures</string>
+
+    <string name="widget_league_news_title">Football Scores - League news</string>
+    <string name="widget_league_empty_list">No recent or coming fixtures</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="148dp"
+        android:layout_height="148dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/app_icon" />
+
+    <ProgressBar
+        android:id="@+id/launch_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-8dp"
+        android:indeterminate="true"
+        android:paddingBottom="?attr/actionBarSize"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="@string/launch_loading_info_label"
+        android:textSize="14sp"
+        android:textColor="?android:textColorSecondary"
+        android:layout_marginLeft="@dimen/activity_horizontal_margins"
+        android:layout_marginRight="@dimen/activity_horizontal_margins"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="?actionBarSize"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margins"
+        android:alpha="0.7"
+        android:padding="8dp"
+        android:src="@drawable/app_name_image"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

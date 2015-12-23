@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:gravity="center"
+    android:theme="@style/ScoreCardTheme">
+
+    <TextView
+        android:id="@+id/row_home_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        tools:text="Home team name"
+        android:textAlignment="viewEnd"/>
+
+    <ImageView
+        style="@style/AppTheme.TeamCrest.Tiny"
+        tools:src="@drawable/crest_placeholder" />
+
+    <TextView
+        android:id="@+id/row_score"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        tools:text="0 - 0"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+    <ImageView
+        style="@style/AppTheme.TeamCrest.Tiny"
+        tools:src="@drawable/crest_placeholder" />
+
+    <TextView
+        android:id="@+id/row_away_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textAlignment="viewStart"
+        tools:text="Away team name"/>
+
+</LinearLayout>

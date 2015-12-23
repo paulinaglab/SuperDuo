@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/card_menu_share_view"
+        style="@style/AppTheme.CardOptionItem"
+        android:text="@string/card_menu_share_action"
+        android:textAlignment="viewStart"
+        android:drawableLeft="@drawable/ic_share"
+        android:contentDescription="@string/description_share_button"
+        android:drawableStart="@drawable/ic_share" />
+
+    <TextView
+        android:id="@+id/card_menu_customize_view"
+        style="@style/AppTheme.CardOptionItem"
+        android:text="@string/card_menu_customize_action"
+        android:textAlignment="viewStart"
+        android:drawableLeft="@drawable/ic_customize"
+        android:contentDescription="@string/description_customize_button"
+        android:drawableStart="@drawable/ic_customize" />
+
+    <TextView
+        android:id="@+id/card_menu_remove_from_observed_view"
+        style="@style/AppTheme.CardOptionItem"
+        android:text="@string/card_menu_remove_from_observed_action"
+        android:textAlignment="viewStart"
+        android:drawableLeft="@drawable/ic_remove"
+        android:contentDescription="@string/description_remove_from_watched_button"
+        android:drawableStart="@drawable/ic_remove" />
+
+</LinearLayout>

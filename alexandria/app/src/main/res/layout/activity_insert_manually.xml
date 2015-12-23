@@ -1,0 +1,15 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.InsertManuallyActivity"
+    android:isScrollContainer="true">
+
+    <fragment
+        android:id="@+id/insert_manually_fragment"
+        android:name="it.jaschke.alexandria.fragments.InsertManuallyFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</android.support.design.widget.CoordinatorLayout>

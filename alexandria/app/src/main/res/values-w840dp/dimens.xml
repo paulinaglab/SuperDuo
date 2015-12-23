@@ -1,0 +1,17 @@
+<resources>
+
+    <dimen name="default_outer_content_padding">24dp</dimen>
+
+    <!-- Toolbar dimens & insets -->
+    <dimen name="toolbar_title_padding">24dp</dimen>
+
+    <dimen name="large_size_horizontal_margins">96dp</dimen>
+    <dimen name="large_size_toolbar_title_inset">32dp</dimen>
+
+    <!-- Activity margins -->
+    <dimen name="activity_horizontal_margins">24dp</dimen>
+    <dimen name="activity_vertical_margins">24dp</dimen>
+
+    <dimen name="normal_size_margin">24dp</dimen>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="main_screen_span_count">1</integer>
+
+    <integer name="table_secondary_item_alpha">178</integer>
+
+    <bool name="translucent_navigation_bar">false</bool>
+    
+</resources>

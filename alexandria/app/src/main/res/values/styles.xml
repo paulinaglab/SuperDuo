@@ -1,0 +1,90 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/app_theme_accent</item>
+        <item name="colorPrimary">@color/app_theme_primaryColor</item>
+        <item name="android:windowBackground">@color/app_theme_windowBackground</item>
+    </style>
+
+    <style name="AppTheme.StatusBarColored">
+        <!-- Nothing to set for pre-Lollipop devices -->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.StatusBarColored.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.TransparentStatusBar">
+    </style>
+
+    <style name="AppTheme.Translucent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/translucent_window_dim</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.TextView.LongText" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+
+    <style name="AppTheme.DetailListItem.LeftIcon" parent="AppTheme">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <style name="AppTheme.DetailListItem.PrimaryText" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">72dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="AppTheme.DetailListItem.SecondaryText" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">72dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="AppTheme.Separator">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/separator</item>
+    </style>
+
+    <style name="AppTheme.Separator.Light">
+        <item name="android:background">@color/separator_light</item>
+    </style>
+
+    <style name="AppTheme.TextView.Subheader" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/default_outer_content_padding</item>
+        <item name="android:paddingRight">@dimen/default_outer_content_padding</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="DetailsTheme" parent="Theme.AppCompat">
+        <!-- ... -->
+    </style>
+
+</resources>

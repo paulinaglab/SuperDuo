@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:gravity="center_vertical"
+    android:theme="@style/ScoreCardTheme">
+
+    <!-- Team order -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="0."
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="?android:textColorPrimary"/>
+
+    <!-- Crest -->
+    <ImageView
+        style="@style/AppTheme.TeamCrest.Small"
+        tools:src="@drawable/crest_placeholder"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+
+    <!-- Team name -->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:text="Sample team name"
+        android:textColor="?android:textColorPrimary"
+        android:textAlignment="viewStart"/>
+
+    <!-- Matches played -->
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        tools:text="1"
+        android:gravity="center"/>
+
+    <!-- Goals scored -->
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        tools:text="1"
+        android:gravity="center"/>
+
+    <!-- Goals lost -->
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        tools:text="1"
+        android:gravity="center"/>
+
+    <!-- Point -->
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        tools:text="1"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="?android:textColorPrimary"/>
+
+</TableRow>

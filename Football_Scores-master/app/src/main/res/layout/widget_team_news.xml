@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/widget_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/widget_team_name_title"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@color/app_theme_primary"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/primary_text_default_material_dark"
+            tools:text="Team"
+            android:textAlignment="viewStart" />
+
+        <include
+            android:id="@+id/widget_team_score_layout"
+            layout="@layout/widget_score_list_item" />
+
+        <TextView
+            android:id="@+id/widget_team_score_empty_state"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@color/widget_background"
+            android:gravity="center"
+            android:text="@string/widget_team_empty_recent"
+            android:textColor="@color/widget_text_color_secondary_light"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/widget_team_coming_match_layout"
+            layout="@layout/widget_coming_list_item" />
+
+        <TextView
+            android:id="@+id/widget_team_coming_empty_state"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@color/widget_background_dark"
+            android:gravity="center"
+            android:text="@string/widget_team_empty_coming"
+            android:textColor="@color/widget_text_color_secondary_light"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</FrameLayout>

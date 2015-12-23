@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scanner_book_not_found"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="@dimen/scanner_response_layout_bottom_margin"
+    android:layout_marginLeft="@dimen/scanner_response_layout_side_margin"
+    android:layout_marginRight="@dimen/scanner_response_layout_side_margin"
+    android:clickable="true"
+    android:visibility="invisible"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="@dimen/scanner_response_card_elevation"
+    app:cardUseCompatPadding="true"
+    tools:layout_gravity="bottom"
+    tools:visibility="visible">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:padding="@dimen/normal_size_margin"
+        android:text="@string/insert_book_not_found_in_api"/>
+
+
+</android.support.v7.widget.CardView>

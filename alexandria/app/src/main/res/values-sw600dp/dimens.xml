@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="layout_outer_margin">16dp</dimen>
+    <dimen name="fabs_layout_outer_margin">16dp</dimen>
+
+</resources>

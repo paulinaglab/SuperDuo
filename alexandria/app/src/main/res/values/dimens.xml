@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Wide screens margins-->
+    <dimen name="main_centered_layout_side_margin">0dp</dimen>
+    <dimen name="insert_manually_layout_side_margin">0dp</dimen>
+    <dimen name="scanner_response_layout_side_margin">-12dp</dimen>
+    <dimen name="scanner_response_card_elevation">8dp</dimen>
+    <dimen name="scanner_response_layout_bottom_margin">-16dp</dimen>
+
+
+    <dimen name="layout_outer_margin">8dp</dimen>
+    <dimen name="cards_layout_outer_margin">4dp</dimen>
+    <dimen name="fabs_layout_outer_margin">8dp</dimen>
+
+    <dimen name="book_card_recycler_margin_decoration">4dp</dimen>
+
+    <dimen name="default_outer_content_padding">16dp</dimen>
+
+    <dimen name="scanner_border_width">2dp</dimen>
+    <dimen name="scanner_border_length">48dp</dimen>
+
+    <dimen name="details_horizontal_margin">0dp</dimen>
+
+    <dimen name="status_bar_placeholder_height">0dp</dimen>
+
+    <!-- Toolbar dimens & insets -->
+    <dimen name="toolbar_title_padding">0dp</dimen>
+
+    <dimen name="large_size_horizontal_margins">0dp</dimen>
+    <dimen name="large_size_toolbar_title_inset">0dp</dimen>
+
+    <!-- Activity margins -->
+    <dimen name="activity_horizontal_margins">16dp</dimen>
+    <dimen name="activity_vertical_margins">16dp</dimen>
+
+    <dimen name="normal_size_margin">16dp</dimen>
+
+</resources>

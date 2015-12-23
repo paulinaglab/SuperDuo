@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="ean_max_length">13</integer>
+
+    <integer name="catalog_column_count">1</integer>
+
+    <bool name="details_translucent_view">false</bool>
+
+</resources>

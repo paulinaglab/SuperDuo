@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="barqsoft.footballscores.activities.TeamWidgetConfigActivity"
+    android:initialLayout="@layout/widget_team_news"
+    android:minHeight="@dimen/widget_team_news_default_height"
+    android:minWidth="@dimen/widget_team_news_default_width"
+    android:previewImage="@drawable/widget_team_news_preview"
+    android:updatePeriodMillis="0" />

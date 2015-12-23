@@ -1,0 +1,106 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/main_no_books_found"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/no_books_found"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:textColor="?android:textColorPrimary"
+        android:alpha="?android:disabledAlpha"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/main_no_books_added_to_catalog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="196dp"
+            android:layout_height="196dp"
+            android:src="@drawable/empty_state_no_books" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/no_books_added_to_catalog"
+            android:textColor="?android:textColorPrimary"
+            android:alpha="?android:disabledAlpha"/>
+
+    </LinearLayout>
+
+    <!-- Recycler - List of books -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_of_books_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/main_centered_layout_side_margin"
+        android:layout_marginRight="@dimen/main_centered_layout_side_margin"
+        android:clipToPadding="false"
+        android:padding="@dimen/cards_layout_outer_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:listitem="@layout/book_list_item"
+        android:overScrollMode="never"/>
+
+
+    <View
+        android:id="@+id/main_fabs_dim_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fabs_visible_dim"
+        android:clickable="true"
+        android:visibility="gone" />
+
+    <!-- FABs layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:clipToPadding="false"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/fabs_layout_outer_margin">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_scan_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_fab_barcode"
+            android:visibility="invisible"
+            app:backgroundTint="@color/fab_mini_bg"
+            app:fabSize="mini"
+            tools:visibility="visible" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_insert_manually"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_fab_insert"
+            android:visibility="invisible"
+            app:backgroundTint="@color/fab_mini_bg"
+            app:fabSize="mini"
+            tools:visibility="visible" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_add_book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:backgroundTint="@color/fab_bg"
+            android:src="@drawable/ic_fab_add" />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

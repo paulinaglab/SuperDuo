@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<it.jaschke.alexandria.widgets.OptionalColorsLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="12dp"
+    android:columnCount="5">
+
+    <it.jaschke.alexandria.widgets.ColorToggleButton
+        app:color="@color/book_color_pebble"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_margin="4dp" />
+
+    <it.jaschke.alexandria.widgets.ColorToggleButton
+        app:color="@color/book_color_lime"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_margin="4dp" />
+
+    <it.jaschke.alexandria.widgets.ColorToggleButton
+        app:color="@color/book_color_honey"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_margin="4dp" />
+
+    <it.jaschke.alexandria.widgets.ColorToggleButton
+        app:color="@color/book_color_carrot"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_margin="4dp" />
+
+    <it.jaschke.alexandria.widgets.ColorToggleButton
+        app:color="@color/book_color_cherry"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_margin="4dp" />
+
+    <it.jaschke.alexandria.widgets.ColorToggleButton
+        app:color="@color/book_color_stone"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_margin="4dp" />
+
+    <it.jaschke.alexandria.widgets.ColorToggleButton
+        app:color="@color/book_color_aqua"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_margin="4dp" />
+
+    <it.jaschke.alexandria.widgets.ColorToggleButton
+        app:color="@color/book_color_blue_sky"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_margin="4dp" />
+
+    <it.jaschke.alexandria.widgets.ColorToggleButton
+        app:color="@color/book_color_lavender"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_margin="4dp" />
+
+    <it.jaschke.alexandria.widgets.ColorToggleButton
+        app:color="@color/book_color_berry"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_margin="4dp" />
+
+
+</it.jaschke.alexandria.widgets.OptionalColorsLayout>

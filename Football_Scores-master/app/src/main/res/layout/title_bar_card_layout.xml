@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4dp"
+    android:paddingTop="4dp">
+
+    <TextView
+        android:id="@+id/card_title_bar_text_view"
+        style="@style/Base.TextAppearance.AppCompat.Caption"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        tools:text="League SampleName - matchday number - date"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"/>
+
+    <ImageButton
+        android:id="@+id/card_title_bar_menu_button"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/ic_more"
+        android:contentDescription="@string/description_card_menu_button"/>
+
+</LinearLayout>

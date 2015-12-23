@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ScoreCardTheme.CardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/ScoreCardTheme">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16dp">
+
+        <include layout="@layout/title_bar_card_layout"/>
+
+        <!-- This layout is optional - goes if watched team is on last position in table. -->
+        <include
+            android:id="@+id/table_row_pre_optional"
+            layout="@layout/team_table_row_layout"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/table_row_pre"
+            layout="@layout/team_table_row_layout" />
+
+        <!-- Watched team row -->
+        <TableRow
+            android:theme="@style/ScoreCardTheme.Team.TableItem.Selected"
+            android:id="@+id/watched_team_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:background="@color/table_selection_highlight">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold"
+                tools:text="0."
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"/>
+
+            <ImageView
+                style="@style/AppTheme.TeamCrest.Small"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                tools:src="@drawable/crest_placeholder" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="?android:textColorPrimary"
+                tools:text="Sample team name"
+                android:fontFamily="sans-serif-medium"
+                android:textAlignment="viewStart"/>
+
+            <TextView
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="?android:textColorPrimary"
+                tools:text="1" />
+
+            <TextView
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="?android:textColorPrimary"
+                tools:text="1" />
+
+            <TextView
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="?android:textColorPrimary"
+                tools:text="1" />
+
+            <TextView
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold"
+                tools:text="1" />
+
+        </TableRow>
+
+        <include
+            android:id="@+id/table_row_post"
+            layout="@layout/team_table_row_layout"/>
+
+        <!-- This layout is optional - goes if watched team is on first position in table. -->
+        <include
+            android:id="@+id/table_row_post_optional"
+            layout="@layout/team_table_row_layout"
+            android:visibility="gone" />
+
+    </TableLayout>
+
+</android.support.v7.widget.CardView>
