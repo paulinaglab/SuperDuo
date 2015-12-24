@@ -63,6 +63,7 @@
     <string name="description_share_button">Share button</string>
     <string name="description_customize_button">Customize button</string>
     <string name="description_remove_from_watched_button">Remove button</string>
+    <string name="customize_content_description">Customize button</string>
 
     <string name="about_text">
         This Application get Football Matches Score for the 1. Bundesliga, 2. Bundesliga, 3. Bundesliga, Champions League, Eredivisie, Ligue 1, Ligue 2, Premier League, Primiera Liga, Primera Division, Segunda Division and Serie A. All Matches data are acquired from football-data.org free API. All team Logos are acquired from links returned by API.\n\nThis version of the application has been modified by Paulina Głąb and is licensed under GNU GENERAL PUBLIC LICENSE Version 3.\n\nIcons (ic_customize, ic_more, ic_remove, ic_share) come from http://materialdesignicons.com. License can be found here: https://github.com/Templarian/MaterialDesign/blob/master/license.txt\n\nThe original version of this app was created by Yahia Khalid Ibn El Walid Ahmed, and a modified version is given to students in the Udacity Android Nanodegree program. To report any bugs or suggestions do not hesitate to send a mail to y.k.ibnelwalid@gmail.com.
