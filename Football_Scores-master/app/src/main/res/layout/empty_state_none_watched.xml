@@ -18,6 +18,7 @@
         style="@style/Base.Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/customize_label"
         android:text="@string/customize_label"
         android:textColor="@color/primary_text_default_material_dark"/>
 
